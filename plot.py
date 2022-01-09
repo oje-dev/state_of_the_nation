@@ -129,8 +129,6 @@ def plot_data(house_price_df, broadband_speed_df, ftse_data_df):
              alpha=0.1, linewidth=0.5, zorder=0)
     ax2.set_ylim(5, 20)
     ax2.set_xlim(48, 90)
-    ax2.axline([1, 1], [17, 17], linestyle=(0, (1, 3)),
-               color='black', alpha=0.5, label='Perfect Correlation')
     ax2.legend(shadow=True)
     ax2.set_xlabel('Mean Download Speed (Mbit/s)')
     ax2.set_ylabel('Mean Upload Speed (Mbit/s)')
