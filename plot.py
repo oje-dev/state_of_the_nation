@@ -167,7 +167,7 @@ def plot_data(house_price_df, broadband_speed_df, ftse_data_df):
     \n3. In March 2020, due to the pandemic, the price of the FTSE-100 tumbled to 5000 GBX. The stock price has been climbing back up in the last year but is still below pre-pandemic levels.
     '''
     ax4.set_axis_off()
-    ax4.text(0, 1, conclusion_text, fontsize=14,
+    ax4.text(0, 1, conclusion_text, fontsize=13,
              verticalalignment='top', wrap=True, clip_on=True)
 
     plt.tight_layout()
